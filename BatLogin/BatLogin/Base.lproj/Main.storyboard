@@ -45,17 +45,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="Pqo-SJ-x3o">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="ulL-AI-WhP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="ulL-AI-WhP" customClass="LoginViewController" customModule="BatLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M1b-rX-8Mt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_logo_login" translatesAutoresizingMaskIntoConstraints="NO" id="1Aq-RE-7u6">
-                                <rect key="frame" x="114.5" y="70" width="146" height="65"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_bat_letras" translatesAutoresizingMaskIntoConstraints="NO" id="kXj-LZ-3Wl">
                                 <rect key="frame" x="93.5" y="155" width="188" height="19"/>
                             </imageView>
@@ -105,6 +102,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_logo_login" translatesAutoresizingMaskIntoConstraints="NO" id="1Aq-RE-7u6">
+                                <rect key="frame" x="114.5" y="70" width="146" height="65"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10196078431372549" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -126,6 +126,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="din-TN-NB7"/>
                     </view>
+                    <connections>
+                        <outlet property="btnEntrar" destination="K4h-9d-azP" id="98B-76-iu3"/>
+                        <outlet property="imgBatLogin" destination="kXj-LZ-3Wl" id="2HJ-Zd-oWi"/>
+                        <outlet property="imgLogoBatman" destination="1Aq-RE-7u6" id="ahj-mc-bzC"/>
+                        <outlet property="lblPass" destination="rML-IF-9uU" id="P1G-h6-kqA"/>
+                        <outlet property="lblUsuario" destination="FoB-Or-ZHX" id="djv-zj-hTF"/>
+                        <outlet property="txtPass" destination="7n8-Xx-bPg" id="hdV-I7-MQl"/>
+                        <outlet property="txtUsuario" destination="1jj-MB-DOc" id="etn-M8-SJH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mBT-f9-h7u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

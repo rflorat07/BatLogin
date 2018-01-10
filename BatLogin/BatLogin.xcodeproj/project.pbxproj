@@ -12,6 +12,7 @@
 		4F14E236200646C90062F3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F14E234200646C90062F3AD /* Main.storyboard */; };
 		4F14E238200646C90062F3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F14E237200646C90062F3AD /* Assets.xcassets */; };
 		4F14E23B200646C90062F3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F14E239200646C90062F3AD /* LaunchScreen.storyboard */; };
+		4F14E243200659610062F3AD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F14E242200659610062F3AD /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4F14E237200646C90062F3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F14E23A200646C90062F3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F14E23C200646C90062F3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F14E242200659610062F3AD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4F14E237200646C90062F3AD /* Assets.xcassets */,
 				4F14E239200646C90062F3AD /* LaunchScreen.storyboard */,
 				4F14E23C200646C90062F3AD /* Info.plist */,
+				4F14E242200659610062F3AD /* LoginViewController.swift */,
 			);
 			path = BatLogin;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F14E243200659610062F3AD /* LoginViewController.swift in Sources */,
 				4F14E233200646C90062F3AD /* ViewController.swift in Sources */,
 				4F14E231200646C90062F3AD /* AppDelegate.swift in Sources */,
 			);
