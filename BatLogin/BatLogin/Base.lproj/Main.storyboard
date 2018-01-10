@@ -37,6 +37,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imgLogoBatman" destination="CRN-g5-B8A" id="EvD-Om-MhD"/>
+                        <outlet property="lblInstructions" destination="J05-A7-Ic0" id="3lb-bF-v6E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,7 +48,7 @@
         <!--View Controller-->
         <scene sceneID="Pqo-SJ-x3o">
             <objects>
-                <viewController id="ulL-AI-WhP" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="ulL-AI-WhP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M1b-rX-8Mt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
